@@ -27,9 +27,9 @@ const Navbar = () => {
     <nav className="bg-gray-800 p-6">
   <div className="container mx-auto">
     <div className="flex justify-between items-center">
-      <div className="text-white font-bold text-xl">Your Logo</div>
+      <div className="text-white font-bold text-xl">Logo</div>
       <div className="space-x-8">
-        <a href="#AboutUs" className="text-white hover:text-gray-300">Home</a>
+        <a href="#Home" className="text-white hover:text-gray-300">Home</a>
         <a href="#AboutUs" className="text-white hover:text-gray-300">About Us</a>
         <div className="relative inline-block" ref={dropdownRef}>
           <button
